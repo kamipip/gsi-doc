@@ -1,0 +1,8 @@
+site_name: Minha Documentação
+nav:
+    - Home: index.md
+    - Comandos Utilizados: comandos-utilizados.md
+    - Conceitos Aprendidos: conceitos-aprendidos.md
+    - MkDocs Setup: mkdocs-setup.md
+    - WordPress Setup: wordpress-setup.md
+

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Conceitos Aprendidos - Minha Documentação</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Minha Documentação</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../comandos-utilizados/" class="nav-link">Comandos Utilizados</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Conceitos Aprendidos</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../mkdocs-setup/" class="nav-link">MkDocs Setup</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../wordpress-setup/" class="nav-link">WordPress Setup</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../comandos-utilizados/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../mkdocs-setup/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-light">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#conceitos-aprendidos" class="nav-link">Conceitos Aprendidos</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#instalacao-do-mkdocs" class="nav-link">Instalação do MkDocs</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#instalacao-do-apache" class="nav-link">Instalação do Apache</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#instalacao-do-wordpress" class="nav-link">Instalação do WordPress</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#configuracao-do-apache-para-servir-o-site-mkdocs" class="nav-link">Configuração do Apache para Servir o Site MkDocs</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#visualizacao-local-de-sites-mkdocs" class="nav-link">Visualização Local de Sites MkDocs</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#ferramentas-e-comandos-comuns" class="nav-link">Ferramentas e Comandos Comuns</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="conceitos-aprendidos">Conceitos Aprendidos</h1>
+<h2 id="instalacao-do-mkdocs">Instalação do MkDocs</h2>
+<p>MkDocs é uma ferramenta de geração de sites estáticos a partir de arquivos Markdown, ideal para criar documentação de projetos. O processo de instalação envolve a utilização do <code>pip</code>, o gerenciador de pacotes do Python, e comandos para criar e configurar um novo projeto MkDocs.</p>
+<h2 id="instalacao-do-apache">Instalação do Apache</h2>
+<p>O Apache é um dos servidores web mais populares do mundo. Ele permite hospedar sites e aplicações web. A instalação do Apache envolve o uso do gerenciador de pacotes do sistema operacional para instalar o software, seguido de configuração para servir o conteúdo da web.</p>
+<h2 id="instalacao-do-wordpress">Instalação do WordPress</h2>
+<p>WordPress é um sistema de gerenciamento de conteúdo (CMS) amplamente utilizado para criar sites e blogs. A instalação do WordPress inclui a configuração de um servidor web (como Apache), instalação do PHP e MySQL (ou MariaDB), e o download e configuração do WordPress em si. Também pode incluir a instalação de ferramentas adicionais como o PhpMyAdmin para gerenciar o banco de dados.</p>
+<h2 id="configuracao-do-apache-para-servir-o-site-mkdocs">Configuração do Apache para Servir o Site MkDocs</h2>
+<p>Depois de gerar um site estático com MkDocs, você pode usar o Apache para servir o site. Isso envolve copiar os arquivos gerados para o diretório do Apache e configurar o servidor Apache para apontar para esses arquivos.</p>
+<h2 id="visualizacao-local-de-sites-mkdocs">Visualização Local de Sites MkDocs</h2>
+<p>O MkDocs possui um servidor embutido que permite visualizar o site localmente durante o desenvolvimento. Usar <code>mkdocs serve</code> inicia um servidor local que serve o site na URL <code>http://127.0.0.1:8000</code>, facilitando a visualização e teste das mudanças em tempo real.</p>
+<h2 id="ferramentas-e-comandos-comuns">Ferramentas e Comandos Comuns</h2>
+<h3 id="ferramentas">Ferramentas:</h3>
+<ul>
+<li><strong>pip</strong>: Gerenciador de pacotes do Python.</li>
+<li><strong>Apache</strong>: Servidor web.</li>
+<li><strong>MySQL/MariaDB</strong>: Sistemas de gerenciamento de banco de dados.</li>
+<li><strong>PhpMyAdmin</strong>: Ferramenta de administração de MySQL/MariaDB via web.</li>
+</ul>
+<h3 id="comandos">Comandos:</h3>
+<ul>
+<li><strong>Instalação de Pacotes</strong>: <code>sudo apt install &lt;pacote&gt;</code></li>
+<li><strong>Gerenciamento de Banco de Dados</strong>: <code>sudo mysql_secure_installation</code></li>
+<li><strong>Servir Conteúdo Localmente</strong>: <code>mkdocs serve</code></li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
